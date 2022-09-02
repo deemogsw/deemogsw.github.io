@@ -39,7 +39,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           pwd
-          find / -name 'my-first-post.md'
+          find /home/runner/work/ -name 'my-first-post.md'
       #- name: Checkout
       #  uses: actions/checkout@v3
       #  with:
