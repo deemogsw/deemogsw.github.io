@@ -39,7 +39,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           pwd
-          ll
+          ls
       #- name: Checkout
       #  uses: actions/checkout@v3
       #  with:
